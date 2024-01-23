@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const fs = require('fs'); // Importar el módulo de sistema de archivos
+const fs = require('fs'); // Importanpmr el módulo de sistema de archivos
 
 // Servir archivos estáticos desde la carpeta 'public'
 app.use(express.static('public'));
